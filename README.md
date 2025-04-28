@@ -23,3 +23,13 @@ template with
 - Tanstack reactQuary
 - zod
 - betterauth conf with drizzle
+
+
+## how to use 
+```
+docker compose up -d 
+craete the db 
+then npx drizzle-kit push
+```
+
+
