@@ -19,6 +19,8 @@ export const auth = betterAuth({
 
         }
     }),
+    trustedOrigins: ["http://localhost:3000"],//add domain or ip 
+
     emailAndPassword: {
         enabled: true,
         requireEmailVerification: true,
